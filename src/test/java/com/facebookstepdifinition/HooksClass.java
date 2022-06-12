@@ -17,6 +17,7 @@ public class HooksClass extends BaseClass
 	@After
 	public void afterExecution() throws InterruptedException
 	{
+		System.out.println("All Testing Compeleted");
 		Thread.sleep(3000);
 		quitBrowser();
 	}
