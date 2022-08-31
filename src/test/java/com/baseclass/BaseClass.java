@@ -20,7 +20,10 @@ import org.openqa.selenium.support.ui.Select;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass
-{
+{private void Sysout() {
+	// TODO Auto-generated method stub
+
+}
 	public static WebDriver driver;
 	public static Actions action;
 	public static Select select;
